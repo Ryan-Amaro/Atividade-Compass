@@ -50,7 +50,7 @@ Salvar localmente usuário e senha do repositório Git
 $ git config credential.helper store
 $ git config --global credential.helper store
 ```
-> Armazena localmente o usuário e a senha digitados, evitando a necesidade de digitar constantimente.
+> Armazena localmente o usuário e a senha digitados, evitando a necesidade de digitar constantemente.
 
 Descrição do commit
 ```
