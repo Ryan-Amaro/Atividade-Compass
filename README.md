@@ -168,6 +168,7 @@ $ sudo usermod -aG docker nome_do_usuário
 ```
 $ newgrp docker 
 ```
+> Aplica as alterações de grupo ao Docker.
 
 
 ## Instalar e configurar container ELK: 
