@@ -132,13 +132,13 @@ ssh -p 2222 nome_do_usuario@127.0.0.1
 
 ## Instalar Docker: 
 ```
-$ sudo yum update sudo yum install -y yum-utils 
+$ sudo dnf install dnf-plugins-core
 ```
 ```
-$ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo 
+$ sudo dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo 
 ```
 ```
-$ sudo yum update sudo yum install docker-ce docker-ce-cli containerd.io 
+$ sudo dnf install docker-ce docker-ce-cli containerd.io 
 ```
 ```
 $ sudo systemctl start docker 
