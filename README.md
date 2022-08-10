@@ -170,7 +170,7 @@ $ newgrp docker
 ```
 
 
-## Instalar imagem ELK: 
+## Instalar e configurar container ELK: 
 Baixar imagem
 ```
 $ docker pull sebp/elk 
