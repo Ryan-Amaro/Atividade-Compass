@@ -130,7 +130,7 @@ ssh -p 2222 nome_do_usuario@127.0.0.1
 > Preencher com nome de usuário do Linux
 
 
-## Instalar Docker: 
+## Instalar e configurar Docker: 
 ```
 $ sudo dnf install dnf-plugins-core
 ```
